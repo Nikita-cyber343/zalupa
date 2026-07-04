@@ -1,0 +1,19 @@
+# ESP-IDF
+build/
+managed_components/
+sdkconfig.old
+dependencies.lock.old
+ 
+# Python (server)
+va_server/.venv/
+__pycache__/
+*.pyc
+ 
+# artefacte audio generate
+tts_output/
+*.wav
+ 
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
